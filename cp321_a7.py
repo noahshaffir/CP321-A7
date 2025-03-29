@@ -42,6 +42,7 @@ runner-up. [5]
 """
 
 app=dash.Dash(__name__)
+server=app.server
 app.layout=html.Div([
     html.H1("FIFA World Cup Winners Dashboard", style={"textAlign": "center"}),
     dcc.Graph(id="choropleth-map"),
