@@ -9,7 +9,6 @@ Original file is located at
 Use Numpy, Pandas, Dash and Plotly libraries to complete this assignment.
 """
 
-!pip install numpy pandas dash plotly dash-html-components dash-core-components
 import pandas as pd, numpy as np, dash, plotly.express as px
 from dash import html, dcc
 from dash.dependencies import Input, Output
